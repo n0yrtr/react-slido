@@ -63,6 +63,15 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary">
+          <Heading size={1} caps lineHeight={1} textColor="tertiary">
+            目的
+          </Heading>
+          <List>
+            <ListItem>DDDの理解</ListItem>
+            <ListItem>DDDを用いて一つのプロジェクト(最小構成)を作る</ListItem>
+          </List>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="primary">
           <Heading size={2} textColor="tertiary" caps>tech</Heading>
           <Heading size={4} textColor="secondary">基盤</Heading>
           <List>
