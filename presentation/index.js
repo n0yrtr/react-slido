@@ -112,15 +112,18 @@ export default class Presentation extends React.Component {
           <List>
             <ListItem>JUnit4</ListItem>
             <ListItem>DBUnit</ListItem>
+            <ListItem>Mockit</ListItem>
           </List>
         </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
+        <Slide transition={["fade"]} bgColor="primary">
+          <Heading size={2} textColor="tertiary" caps>tech</Heading>
+          <Heading size={4} textColor="secondary">TestCode</Heading>
+          <Heading size={5} textColor="quarternary">所感</Heading>
           <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
+            <ListItem>{ /* TODO ここに画像を張る */ }</ListItem>
+            <ListItem>xmlの書き方が手間</ListItem>
+            <ListItem>テストコードを書いたことにより、SQL文の間違いに気づいた</ListItem>
+            <ListItem>身に着けるために常にテストコードを書くことを意識した実装が必要</ListItem>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
