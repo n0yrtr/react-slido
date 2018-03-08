@@ -31,6 +31,14 @@ const theme = createTheme({
   secondary: "Helvetica"
 });
 
+import preloader from 'spectacle/lib/utils/preloader';
+
+const images = {
+  overwhole: require('../assets/overwhole.png')
+};
+
+preloader(images);
+
 export default class Presentation extends React.Component {
   render() {
     return (
@@ -76,7 +84,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]} bgColor="primary">
           <Heading size={2} textColor="tertiary" caps>tech</Heading>
           <List>
-            <Image src="./assets/overwhole.png"/>
+            <Image src={images.overwhole}/>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary">
